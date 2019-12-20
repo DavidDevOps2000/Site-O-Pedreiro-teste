@@ -1,0 +1,27 @@
+.dentro{
+
+	transform: translateX(-50);
+}
+
+
+legend{
+	text-align: center;
+	
+}
+.botaoEnviar{ /* Finalizar Cadastro */
+	position: absolute;
+	margin-left: 820px;
+	background-color: orange;
+	border-radius: 10px;
+
+}
+.botaoUp{/* Upload de imagem */
+	position: relative;
+	margin-right: 200px;	
+	background-color: orange;
+	border-radius: 10px;
+}
+#textoDentro{
+	margin-left: 20px;
+	text-align: left;
+}

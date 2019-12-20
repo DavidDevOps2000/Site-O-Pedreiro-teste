@@ -1,0 +1,184 @@
+body{
+	font-family: sans-serif;
+	color: white;
+	background-image: url("../imagens/fundo.jpg");
+	background-repeat: no-repeat;
+	background-position: middle;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	
+}
+
+.btnEfeito:hover{
+	box-shadow: 0 0 15px gold, inset 0 0 10px red;
+	transition: 1s;
+}
+
+header{/*cabeçalho*/
+	top:0%;
+}
+
+
+.layout{/*Layout do Cabeçalho e Rodapé*/
+	background-color: #4447b7;/*cor padrão*/	
+    position: absolute;
+    width: 100%;
+	height: 15%;
+	}
+
+a{/*Links do Menu Principal*/
+ 	text-decoration: none;
+ 	color: white;
+ }
+ td:hover{/*Mouse sobre os links*/
+ 	background-color: #e9bb1e;
+ }
+
+		.logo{/*Logotipo da página*/
+	 			position: absolute; 
+	 			height:90%; 
+	 			width: 8%;
+	 			left: 5%;
+	 			bottom: 0%;
+				}
+
+
+
+ 		#menuPrinc{/*Barra do menu*/
+  			position: absolute;
+  			width: 50%;
+  			text-align: center;
+  			bottom: 0%;
+   			font-size: 110%;
+  			box-sizing: border-box;
+  			transform: translateX(50%);
+
+  					}
+
+ 		#subMenu{/*Menu Principal*/
+			position: relative;
+			font-size: 110%;
+			box-sizing: border-box;
+			border:2px solid white;
+			
+			} 
+
+
+#loginCadastro{/*Login e Cadastro*/
+	box-sizing: border-box;
+
+				}
+
+			#cadastre{
+					width: 10%;
+					position:absolute; 
+					left: 87%;
+					bottom: 0%;
+					}
+
+				#login{
+					position:absolute; 
+					right: 10%;
+					bottom: 50%;
+					}
+
+
+
+
+nav{
+	width:100%;
+	height: 60%;
+	 }
+
+.titulo{
+		font-size: 150%;
+		position: absolute;
+		position: absolute;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: #000;
+		top: 18%;
+		left: 2%;		
+}
+
+
+
+
+
+
+
+/*Termino da Página Serviços*/
+
+
+
+footer{/*Rodapé*/
+	box-sizing: content-box;
+	bottom: 0%;
+}
+.rodapeTudo{	
+			}
+
+ a img{/*Alinhamento e largura padrão das redes sociais*/
+			position: absolute;
+			bottom: 32%;
+			}
+
+	#icone_face{
+			height: 35%;
+			width:3%;
+			right:25%;
+				}
+
+	#icone_twitter{
+			height: 35%;
+			width:3%;
+			right:20%;
+				}
+
+	#icone_intagram{
+			height: 35%;
+			width:3%;
+			right:15%;
+				}
+
+	#icone_likedin{
+			height: 35%;
+			width:3%;
+			right:10%;
+				}
+
+
+.cont{
+	position: absolute;
+	bottom: 35%;
+	margin: auto;
+		}
+
+			#trabalhe{
+					right: 35%;
+					bottom: 27%;
+			    	 }
+
+			#contato{
+					right: 45%;
+					}
+
+			#duvidas{
+					right: 54%;	
+        			}
+
+
+.apps{
+	position:absolute;
+	height: 50%;
+	width: 13%;
+	bottom: 29%;
+	box-sizing: content-box;	
+	}
+
+	#icon_googleplay{
+					right: 82%;
+					}
+
+	#icon_appstore{
+					right: 68%;
+				   }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Chame o Pedreiro</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="icon" href="icones/logo.png">
+		<link rel="stylesheet" type="text/css" href="css/layout.css">
+		<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="js/efeitos.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+
+		<script>
+			window.onload = function() {// Para ativar o foco dentro da caixa de caracteres quando inicia a pagina
+	  		document.getElementById("barra_buscar").focus();
+	  		};
+
+		</script>
+
+	</head>
+
+	<body>
+		<header class="layout" id="cabecalho">
+		<div id="logoMarca">
+			<a href="index.html"><img src="icones/logo.png" class="logo" title="Chame o Pedreiro"></a>
+		</div>
+
+				<table class="container" id="menuPrinc"><!-- Parte de cima com as partes da página -->
+					<td id="subMenu"><a href="index.html">Inicio</a></td>
+					<td id="subMenu"><a href="Servicos.html">Serviços</a></td>
+					<td id="subMenu"><a href="precos.html">Preços</a></td>
+					<td id="subMenu"><a href="dicas.html">Dicas</a></td>
+					<td id="subMenu"><a href="sobre.html">Sobre</a></td>
+				</table>
+
+		<div><!-- Login e Cadastre-se-->	
+			<span><a href="cadastre_part1.html" id="cadastre">Cadastre-se</a></span>
+			<span><a href="login.html" id="login">Login</a></span>
+		</div>
+			
+		</header>
+
+
+		<nav>
+			<div id="buscar"><!-- Box de buscar no centro da página -->	
+				<input type="text" id="barra_buscar" name="in_buscar" maxlength="82" placeholder="Buscar" style="border:2px solid grey">
+			</div>
+				<img id="lupa_princ"src="icones/icon_lupa.png" border="15px">
+
+			<div id="btn_buscar"><!-- botão buscar -->
+				<a href="buscar.html"><div>Buscar</div></a>
+			</div>
+
+			<div id="camp_select">
+				<p id="profissional" style="float: left;">
+					<input type="radio" name="ra_opt">Profissional</p>
+				<p id="cliente" style="float: right; ">
+					<input type="radio" name="ra_opt">Cliente</p>
+			</div>
+
+			
+			<div id="orcamentoGratis"><!-- botão Orçamento rápido -->
+				<a href="orcamentoRapido.html">
+				<span id="btn_oncamentoGratis">Orçamento Grátis</span>
+				</a>
+			</div>
+
+		</nav>
+
+
+		<footer class="layout" id="rodape">
+
+			<div id="rodapeTudo">
+
+				<div id="redesSocias"><!-- Acesso das redes sociais -->
+					<a href="https://www.facebook.com/" class="redesSocias"><img id="icone_face" src="icones\face.png"></a>
+					<a href="https://www.instagram.com/?hl=pt-br" class="redesSocias"><img id="icone_intagram" src="icones\insta.png"></a>
+					<a href="https://br.linkedin.com/" class="redesSocias"><img id="icone_likedin" src="icones\link.png"></a>
+					<a href="https://twitter.com/login?lang=pt" class="redesSocias"><img id="icone_twitter" src="icones\twi.png"></a>
+				</div>
+
+				<div id="contatos"><!-- Textos no final das páginas -->
+					<a class="cont" id="trabalhe" href="manutencao.html">Trabalhe <br> Conosco</a></div>
+				 	<a class="cont" id="contato"  href="manutencao.html">Contato</a></div>
+				 	<a class="cont" id="duvidas"  href="manutencao.html">Duvidas</a></div>
+				</div>
+
+				<div id="aplicativos"><!-- Icones para lojas de aplicativos -->
+					<a href="https://play.google.com/store/apps?hl=pt_BR"><img class="apps" id="icon_googleplay" src="icones\google-play.png"></a>
+					<a href="https://www.apple.com/br/ios/app-store/"><img class="apps" id="icon_appstore" src="icones\app_store.png"></a>
+				</div>
+
+			</div>
+										
+		</footer>
+	</body>
+</html>

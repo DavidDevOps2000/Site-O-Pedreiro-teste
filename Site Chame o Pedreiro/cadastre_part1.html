@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Chame o Pedreiro</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="icon" href="icones/logo.png">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/efeitos.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/cadastro_part1.css">
+</head>
+
+<body>
+	<header class="layout" id="cabecalho"><!-- Começo do cabecalho-->
+	<div id="logoMarca">
+		<a href="index.html"><img src="icones/logo.png" class="logo" title="Chame o Pedreiro"></a>
+	</div>
+
+			<table id="menuPrinc"><!-- Menu Principal-->
+				<td id="subMenu"><a href="index.html">Inicio</a></td>
+				<td id="subMenu"><a href="servicos.html">Serviços</a></td>
+				<td id="subMenu"><a href="precos.html">Preços</a></td>
+				<td id="subMenu"><a href="dicas.html">Dicas</a></td>
+				<td id="subMenu"><a href="sobre.html">Sobre</a></td>
+			</table>
+
+
+	<div><!-- Login e Cadastre-se-->	
+		<span><a href="cadastre_part1.html" id="cadastre">Cadastre-se</a></span>
+		<span><a href="login.html" id="login">Login</a></span>
+	</div>
+		
+	</header>
+
+
+	<nav>
+<div><img class="ImgHome" src="C:\Users\trabalho\Desktop\Site Chame o Pedreiro\imagens\imagem_home.jpg"></div>
+
+	
+		<div class="cadastro1">	
+		<!--Criando um formulario  -->
+		<form name ="curso" action="#" method="post">
+
+			
+				<div id="dadospessoais1">
+				
+				<p><label id="lNome">Nome: </label>
+				<input id="fNome" type="text" name="fNome" placeholder="Digite seu nome" required="Digite seu nome"><br></p>			
+			
+				<label id="lSobrenome">Sobrenome: </label>
+				<input id="fSobrenome" type="text" name="fSobrenome" placeholder="Digite Sobrenome" required="Digite Sobrenome"><br>
+
+				<label id="lTelefone">Telefone: </label>
+  				<input id="fTelefone" type="text" name="fTelefone" placeholder="(xx)xxxx-xxxx" required="Digite seu telefone" maxlength="10"><br>
+
+				<label id="lCep">Cep: </label>
+				<input id="fCep" type="text" name="fCep"  placeholder="xxxxx-xxx" required="Digite seu cep"
+				maxlength="8"><br>
+
+				<label id="lRua">Rua: </label>
+				<input id="fRua" type="text" name="fRua"  placeholder="Digite sua Rua" required="Digite seu endereço">	
+				
+					
+				</div>
+
+			
+
+			
+				<div id="dadospessoais2">
+				<label id="lSenha">Senha: </label>
+				<input  id="fSenha" type="password" name="fSenha" required="Senha"><br>
+
+				<label id="lNascimento">Nascimento: </label>
+				<input id="fNascimento" type="date" name="fNascimento" placeholder="nascimento" >	<br>
+   				
+				<label id="lCelular">Celular: </label>
+				<input id="fCelular" type="text" name="fCelular" placeholder="(xx)xxxxx-xxxx" required="Senha" maxlength="11"><br>
+
+				<label id="lUf">UF: </label>
+				<select id="fUf"><!--Cria lista dos estados!-->
+				<option>AC</option>
+				<option>AL</option>	
+				<option>AP</option>
+				<option>AM</option>
+				<option>BA</option>
+				<option>CE</option>	
+				<option>DF</option>
+				<option>ES</option>
+				<option>GO</option>
+				<option>MA</option>	
+				<option>MT</option>
+				<option>MS</option>
+				<option>MG</option>
+				<option>PA</option>	
+				<option>PB</option>
+				<option>PR</option>
+				<option>PE</option>
+				<option>PI</option>	
+				<option>RJ</option>
+				<option>RN</option>
+				<option>RS</option>	
+				<option>RO</option>
+				<option>RR</option>
+				<option>SC</option>
+				<option>SP</option>	
+				<option>SE</option>
+				<option>TO</option>							
+				</select><br>
+
+				<label id="lNum">Nº: </label>
+				<input id="fNum" type="text" name="fNum"  placeholder="nº">					
+				</div>
+
+			
+				<div id="dadospessoais3">
+
+				<label id="lRg">Rg: </label>
+				<input id="fRg" type="text" name="fRg" placeholder="xx.xxx.xxx-x"><br>
+
+				<label id="lEmail">Email: </label>
+				<input id="fEmail" type="text" name="fEmail" placeholder="pedreiro@"><br>				
+				
+				<label id="lCidade">Cidade: </label>
+				<input id="fCidade" type="text" name="fCidade" placeholder="Digite a Cidade"><br>
+
+				</div>
+				
+				
+				<input id="btn_enviar" type="submit" name="jjsnfjks" onclick="confirma();">	
+
+			
+
+
+		</form>
+	</nav>
+
+
+	</nav>
+
+
+	<footer class="layout" id="rodape"><!-- rodapé das pagina-->
+
+	<div id="rodapeTudo">
+
+		<div id="redesSocias"><!-- Redes Sociais-->
+			<a href="https://www.facebook.com/" class="redesSocias"><img id="icone_face" src="icones\face.png"></a>
+			<a href="https://www.instagram.com/?hl=pt-br" class="redesSocias"><img id="icone_intagram" src="icones\insta.png"></a>
+			<a href="https://br.linkedin.com/" class="redesSocias"><img id="icone_likedin" src="icones\link.png"></a>
+			<a href="https://twitter.com/login?lang=pt" class="redesSocias"><img id="icone_twitter" src="icones\twi.png"></a>
+		</div>
+
+		<div id="contatos"><!-- Contatos-->
+			<a class="cont" id="trabalhe" href="manutencao.html">Trabalhe <br> Conosco</a></div>
+		 	<a class="cont" id="contato"  href="manutencao.html">Contato</a></div>
+		 	<a class="cont" id="duvidas"  href="manutencao.html">Duvidas</a></div>
+		</div>
+
+		<div id="aplicativos"><!-- Link para entrar em contato-->
+			<a href="https://play.google.com/store/apps?hl=pt_BR"><img class="apps" id="icon_googleplay" src="icones\google-play.png"></a>
+			<a href="https://www.apple.com/br/ios/app-store/"><img class="apps" id="icon_appstore" src="icones\app_store.png"></a>
+		</div>
+
+	</div>
+									
+	</footer>
+</body>
+</html>

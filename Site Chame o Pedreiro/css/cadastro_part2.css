@@ -1,0 +1,14 @@
+#cadastro_form{
+	position: absolute;
+	top: 15%;
+}
+
+#form_part1{
+	float: left;
+	width: 100%;
+	padding: 15px
+
+}
+#form_part2{
+	float: right;
+}

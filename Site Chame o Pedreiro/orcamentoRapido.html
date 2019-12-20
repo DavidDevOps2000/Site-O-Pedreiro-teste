@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Chame o Pedreiro</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="icon" href="icones/logo.png">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/efeitos.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/orcamentoRapido.css">
+	<script type="text/javascript" src="js/orcamentoRapido.js"></script>
+	<script>
+		// Para ativar o foco dentro da caixa de caracteres quando inicia a pagina no cadastro de nome completo
+		window.onload = function() {
+  		document.getElementById("tNome").focus();
+  		};
+  		$(document).ready(function(){
+				$("formulario").submit(function(){
+					alert ("Seus dados foram enviados!!!\nMuito Obrigado!!");
+
+				});
+			});
+  	
+
+  		</script>
+  		<script type="text/javascript" href="js/orcamentoRapido.js"></script>
+</head>
+
+<body>
+	<header class="layout" id="cabecalho"><!-- Começo do cabecalho-->
+	<div id="logoMarca">
+		<a href="index.html"><img src="icones/logo.png" class="logo" title="Chame o Pedreiro"></a>
+	</div>
+
+			<table id="menuPrinc"><!-- Menu Principal-->
+				<td id="subMenu"><a href="index.html">Inicio</a></td>
+				<td id="subMenu"><a href="servicos.html">Serviços</a></td>
+				<td id="subMenu"><a href="precos.html">Preços</a></td>
+				<td id="subMenu"><a href="dicas.html">Dicas</a></td>
+				<td id="subMenu"><a href="sobre.html">Sobre</a></td>
+			</table>
+
+
+	<div><!-- Login e Cadastre-se-->	
+		<span><a href="cadastre.html" id="cadastre">Cadastre-se</a></span>
+		<span><a href="login.html" id="login">Login</a></span>
+	</div>
+		
+	</header>
+
+
+	<nav>
+
+
+	<div style="background-color: red">
+		<h1>Orçamento Rápido</h1> <!--campo de form em div-->
+			<div id="formulario">
+				<div id="form_orcamento">
+					<form id="form1">
+						<p>Nome:
+							<input type="text" id="tNome" name="tNome" placeholder="Nome Completo" class="nomeCompleto" required="required">
+						</p>
+						<p>Email:
+							<input type="text" id="tEmail" name="tEmail" placeholder="@" required="required">
+						</p>
+						<p>Telefone:
+							<input id="tTel" name="tTel" maxlength="14" placeholder="(99)99999-9999" required="required">
+						</p>
+							<textarea id="textoDentro" name="tmensagem" maxlength="255" placeholder="Descreva o que precisa dos nossos profissionais"></textarea>
+							
+							<!-- Botoes de enviar e adicionar imagens -->
+							<input type="submit" value="Voltar" id="btn-adicionar" onclick="history.go(-1)"> 
+							<input type="submit" value="Enviar" id="btn-enviar" onclick="clicar();">
+					</form>
+
+			</div>
+			
+	</div>
+
+
+
+
+	</nav>
+
+
+	<footer class="layout" id="rodape"><!-- rodapé das pagina-->
+
+	<div id="rodapeTudo">
+
+		<div id="redesSocias"><!-- Redes Sociais-->
+			<a href="https://www.facebook.com/" class="redesSocias"><img id="icone_face" src="icones\face.png"></a>
+			<a href="https://www.instagram.com/?hl=pt-br" class="redesSocias"><img id="icone_intagram" src="icones\insta.png"></a>
+			<a href="https://br.linkedin.com/" class="redesSocias"><img id="icone_likedin" src="icones\link.png"></a>
+			<a href="https://twitter.com/login?lang=pt" class="redesSocias"><img id="icone_twitter" src="icones\twi.png"></a>
+		</div>
+
+		<div id="contatos"><!-- Contatos-->
+			<a class="cont" id="trabalhe" href="manutencao.html">Trabalhe <br> Conosco</a></div>
+		 	<a class="cont" id="contato"  href="manutencao.html">Contato</a></div>
+		 	<a class="cont" id="duvidas"  href="manutencao.html">Duvidas</a></div>
+		</div>
+
+		<div id="aplicativos"><!-- Link para entrar em contato-->
+			<a href="https://play.google.com/store/apps?hl=pt_BR"><img class="apps" id="icon_googleplay" src="icones\google-play.png"></a>
+			<a href="https://www.apple.com/br/ios/app-store/"><img class="apps" id="icon_appstore" src="icones\app_store.png"></a>
+		</div>
+
+	</div>
+									
+	</footer>
+</body>
+</html>

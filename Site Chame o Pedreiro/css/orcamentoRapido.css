@@ -1,0 +1,96 @@
+nav{
+	width: 100%
+}
+
+
+#form1{
+	color: black;
+	position: absolute;
+	top: 23%;
+	left:25%;
+	width: 50%;
+	height: 59.2%;
+	border:3px solid black;
+	padding: 3px
+}
+
+p{
+		margin:2%;
+}
+
+input{
+	width: 80%
+}
+
+#tTelefone{
+	width: 22%;
+	
+}
+#tEmail{
+	width: 90%;
+}
+
+#tNome{
+	width: 90%;
+}
+
+
+h1{
+	color: black;
+    position: absolute;
+	top:19%;
+	left: 44%;
+}
+
+/*.dentro{
+	transform: translateX(-50);
+}*/
+
+textarea{
+	position:relative;
+	bottom: 10%; 
+	width: 96.2%;
+	box-sizing: border-box;
+	height: 50%;
+	box-sizing: content-box;
+	left: 1.5%;
+	resize: none;
+}
+
+
+
+#btn-adicionar{
+ 	font-size: 80%;
+ 	position: absolute;
+	background-color: #e9bb1e;
+	text-align: center; 
+	border-radius: 15px;
+	/*padding: 5px;*/
+	width: 28%;
+	height: 9%;
+	bottom: 3%;
+	right: 3%;
+	/*box-shadow: 0 0 15px yellow, inset 0 0 10px red	;*/
+
+}
+#btn-adicionar:hover{
+	box-shadow: 0 0 15px gold, inset 0 0 10px red;
+	transition: 1s;
+}
+#btn-enviar:hover{
+	box-shadow: 0 0 15px gold, inset 0 0 10px red;
+	transition: 1s;
+}
+
+#btn-enviar{
+ 	font-size: 80%;
+ 	position: absolute;	
+	background-color: #e9bb1e;
+	text-align: center; 
+	border-radius: 15px;
+	/*padding: 5px;*/
+	width: 28%;
+	height: 9%;
+	bottom: 3%;
+	left: 3%;
+}

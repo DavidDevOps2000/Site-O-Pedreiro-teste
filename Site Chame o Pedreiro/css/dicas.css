@@ -1,0 +1,58 @@
+#videoPlay{ position: absolute;
+			overflow-y: scroll;
+			width: 50%;
+			height: 60%;
+			transform: translateX(50%);
+			top:25%;
+
+
+
+		}
+
+iframe{
+	margin: 2%;
+	width: 45%;
+	height: 50%
+
+}		
+video{
+	margin: 2%;
+	width: 45%;
+	height: 50%
+}
+
+#search{
+	position:absolute;
+	border-top: transparent;
+	border-right: transparent;
+	border-left: transparent;
+	border-bottom: 2px solid black;
+	width: 35%;
+	top: 20%;
+	left: 12%;   
+}
+
+input:focus, select:focus {
+	background: transparent;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+input{
+	background: transparent;
+}
+#lupa{
+	position: absolute;
+	height:3.5%;
+ 	width:1.8%;
+ 	top:19%;
+	left: 46%;
+	opacity: 0.50
+ }
+
+#buscar{
+	width: 23%;
+	height: 15%;
+
+}

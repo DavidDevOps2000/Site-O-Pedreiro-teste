@@ -1,0 +1,89 @@
+#box_precos{
+	background-color: #4447b7 ;
+	width: 40%;
+	border-radius: 5px;
+	position: absolute;
+	right: 26%;
+	padding: 20px;
+	height: 47%;
+	top: 25%
+
+
+
+}
+#apt{
+	position: absolute;
+	right: 20%;
+	top:15%;
+}
+#btn_avançar{
+	font-size: 100%;
+ 	position: absolute;
+	background-color: orange;
+	text-align: center; 
+	border-radius: 30px;
+	bottom: 3%;
+	left: 37%;
+	/*padding: 10px;*/	
+	width: 28%;
+	height: 9%;
+	vertical-align: middle;
+
+}
+#btn_avançar:hover{
+	box-shadow: 0 0 15px gold, inset 0 0 10px red;
+	transition: 1s;
+}
+#Serviços{
+	float: right;
+	padding: 4px;
+	position: absolute;
+	top:52%;
+	left: 3.5%;
+	width: 85%;
+	box-sizing: border-box;
+	margin-left: 2%;
+	margin-right: 2%;
+
+}#casa{
+	position: absolute;
+	top: 15%;
+	left: 5%;
+}#comercio{
+	position: absolute;
+	top: 29%;
+	left: 5%;
+}#qual{
+	position: absolute;
+	top: 40%;
+	left: 5%;
+
+}
+
+#titulo{
+	color: black;
+	width: 9%;
+	position: absolute;
+	top: 15%;
+	border-bottom:2px solid black;
+	font-size: 25px;
+}
+
+#etapa{
+	color: black;
+	position: absolute;
+	top: 15%;
+	border-bottom:2px;
+	right: 2%;
+}
+nav{
+	margin-left: 3%;
+}
+h3{
+	position: absolute;
+	left: 5%;
+}
+h1{
+	position: relative;
+	transform: translateX(-50% 50%);
+}

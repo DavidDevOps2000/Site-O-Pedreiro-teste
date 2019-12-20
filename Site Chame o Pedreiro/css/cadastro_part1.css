@@ -1,0 +1,158 @@
+
+
+#btn_enviar{
+	position: relative;
+	top:500px;
+	width: 10%;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: orange;
+	color: white; 
+
+}
+
+
+	.btncontinuar{
+	background-color: orange;
+	width: 15%;
+	text-align: center;
+	padding:6.5px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px black;
+	margin-left: 255%;
+
+	}
+
+	.btncadastrar{
+	position: relative;
+	background-color: orange;
+	width: 15%;
+	text-align: center;
+	padding:6.5px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px black;
+	top: 480px;
+	float: left;
+	}
+
+h2{
+text-align: left;
+color: black;
+
+}
+
+.cadastro{
+	color: black;
+	position: absolute;
+	width: 35%;
+	margin-top: 8%;
+	
+}
+
+
+#dadospessoais1{
+position: relative;
+top: 200px;
+padding: 20px;
+width:25%;
+height: 200px;
+float: left;
+color: black;
+}
+#lSobrenome{
+	position: relative;
+	top: 10px;
+}#fSobrenome{
+	position: relative;
+	top: 10px;
+}#lTelefone{
+	position: relative;
+	top: 35px;
+}#fTelefone{
+	position: relative;
+	top: 35px;
+}#lCep{
+	position: relative;
+	top: 50px;
+}#fCep{
+	position: relative;
+	top: 50px;
+}#lRua{
+	position: relative;
+	top: 60px;
+}#fRua{
+	position: relative;
+	top: 60px;
+}
+#dadospessoais2{
+position: relative;
+top: 200px;
+width: 25%;
+height: 200px;
+padding: 20px;
+float: left;
+color: black;
+
+}#lSenha{
+	position: relative;
+	top: 10px;
+}#fSenha{
+	position: relative;
+	top: 10px;
+}#lNascimento{
+	position: relative;
+	top: 25px;
+}#fNascimento{
+	position: relative;
+	top: 25px;
+}#lCelular{
+	position: relative;
+	top: 40px;
+}#fCelular{
+	position: relative;
+	top: 40px;
+}#lUf{
+	position: relative;
+	top: 55px;
+}#fUf{
+	position: relative;
+	top: 55px;
+}#lNum{
+	position: relative;
+	top: 60px;
+}#fNum{
+	position: relative;
+	top: 60px;
+}
+
+#dadospessoais3{
+position: relative;
+top: 200px;
+width: 25%;
+height: 200px;
+padding: 20px;
+float: left;
+color: black;
+}#lRg{
+	position: relative;
+	top: 10px;
+}#fRg{
+	position: relative;
+	top: 10px;
+}#lEmail{
+	position: relative;
+	top: 30px;
+}#fEmail{
+	position: relative;
+	top: 30px;
+}#lCidade{
+	position: relative;
+	top: 45px;
+}#fCidade{
+	position: relative;
+	top: 45px;
+}
+
+
+
+

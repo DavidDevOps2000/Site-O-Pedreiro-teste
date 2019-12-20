@@ -1,0 +1,24 @@
+/*Serviços*/
+#imgPedreiro{
+	position: absolute;
+	left: 5%;
+	height: 47%;
+	width: 28%;
+	bottom: 25%;
+}
+#img1, #img2, #img3, 
+#img4, #img5, #img6,
+#img7, #img8 {	height: 23%;	/*todas as imagens exceto a principal*/
+				width: 14%;
+				position: absolute;
+			}
+
+
+#img1, #img2, #img3, #img4{/* 1º barra de serviços*/	
+	bottom: 49%;
+}
+
+#img5, #img6, #img7, #img8{/* 1º barra de serviços*/
+	bottom: 25%;*/
+}
+/*Termino da Página Serviços*/

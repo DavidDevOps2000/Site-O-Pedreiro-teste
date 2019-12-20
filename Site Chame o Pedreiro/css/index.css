@@ -1,0 +1,59 @@
+#buscar{
+	position: absolute;
+	transform: translateX(50%);
+	top: 44.2%;
+	width: 51%;
+	height: 4%;
+}
+
+#barra_buscar{
+	height: 100%;
+	width: 95%;
+}
+#lupa_princ{
+	position: absolute;
+	height:3%;
+ 	width:1.5%;
+ 	top:45%;
+	left: 72%;
+ }
+ #btn_buscar{
+ 	position: absolute;
+	background-color: #e9bb1e;
+	width: 9%;
+	text-align: center;
+	padding: 10px; 
+	border-radius: 30px;
+	top: 44%;
+	left: 75%;
+}
+
+#camp_select{
+	font-size: 18px;
+	color: black;
+	position: absolute;
+	width: 30%;
+	top: 50%;
+	left: 37%
+}
+
+ #btn_oncamentoGratis{
+ 	font-size: 160%;
+ 	position: absolute;
+	background-color: #e9bb1e;
+	text-align: center; 
+	border-radius: 30px;
+	top: 60%;
+	left: 37%;
+	padding: 10px;
+	width: 28%;
+	vertical-align: middle;
+}
+#btn_oncamentoGratis:hover{
+	box-shadow: 0 0 15px gold, inset 0 0 10px red;
+	transition: 1s;
+}
+#btn_buscar:hover{
+	box-shadow: 0 0 15px gold, inset 0 0 10px red;
+	transition: 1s;
+}

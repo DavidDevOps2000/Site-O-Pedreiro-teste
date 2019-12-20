@@ -1,0 +1,85 @@
+body{background-color: gray; 
+}
+
+#box_login{
+	background-color: white;
+	width: 40%;
+	border-radius: 5px;
+	position: absolute;
+	right: 26%;
+	padding: 20px;
+	height: 52%;
+	top: 25%
+}
+
+#ilogin{
+	background-color: #d1caca;
+	width: 75%;
+	border:0;
+	height: 15%;
+	position: absolute;
+	top: 35%;
+	left: 18%;
+	font-size: 120%;
+	box-sizing: border-box;
+	box-sizing: content-box;
+}
+#isenha{
+	margin-top:5%;
+	background-color: #d1caca;
+	width: 75%;
+	border:0;
+	height: 15%;
+	position: absolute;
+	top: 50%;
+	left: 18%;
+	font-size: 120%;
+	box-sizing: border-box;
+	box-sizing: content-box;
+}
+.icons{
+	top:34%;
+	width: 10%;
+	height: 17%;
+	position:absolute;
+	left: 3.5%
+
+}
+#loginTop{
+	height: 30%;
+	width: 20%;
+	position: absolute;
+	left: 39%;
+
+}
+#iconPassword{
+	top:56%;
+}
+
+#btn_login{
+	height: 12%;
+	width: 91%;
+	background-color:#e9bb1e;
+	text-align: center;
+	position: absolute;
+	bottom: 13%;
+	right: 6%;
+	border-radius: 12px;
+	font-size:250%; 
+}
+
+#baixo{
+	color: black;
+	position: absolute;
+	box-sizing:content-box;
+	bottom: 0%;
+	width: 90%;
+	padding: 2px;
+}
+
+div p a{
+	color:black;
+}
+
+#cadastre{margin-left: -2%;
+}

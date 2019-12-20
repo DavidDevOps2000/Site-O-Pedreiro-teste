@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Chame o Pedreiro</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="icon" href="icones/logo.png">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<script type="text/javascript" href="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" href="js/efeitos.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script type="text/javascript" src="js/login.js"></script>
+</head>
+
+<body>
+	<header class="layout container" id="cabecalho">
+	<div class="container">
+		<a href="index.html"><img src="icones/logo.png" class="logo" title="Chame o Pedreiro"></a>
+	</div>
+
+	<table id="menuPrinc" class="container">
+				<td id="subMenu"><a href="index.html">Inicio</a></td>
+				<td id="subMenu"><a href="servicos.html">Serviços</a></td>
+				<td id="subMenu"><a href="precos.html">Preços</a></td>
+				<td id="subMenu"><a href="dicas.html">Dicas</a></td>
+				<td id="subMenu"><a href="sobre.html">Sobre</a></td>
+			</table>
+
+		<span><a href="cadastre_part1.html" id="cadastre">Cadastre-se</a></span>
+		<span><a href="login.html" id="login">Login</a></span>
+	</header>
+
+
+	<nav>
+		
+	<div id="box_login"><!--Login e Senha-->
+		<img src="icones/loginTop.png" id="loginTop">
+	<span>
+		<img class="icons" id="iconUser"src="icones/user.png">
+		<input type="text" maxlength="13" id="ilogin" name="flogin" placeholder="  Digite seu login ou email">
+	</span>
+	<span>
+		<img class="icons" id="iconPassword"src="icones/password.png">
+		<input type="Password" maxlength="13" id="isenha" name="fsenha" placeholder="  Sua senha">
+	</span>	
+		<a href="">
+			<span id="btn_login" class="btnEfeito"onclick="login()">Login</span>
+		</a>
+		<div id="baixo">
+			<p id="lembra"><a href="manutencao.html">Esqueci a senha</a></p>
+			<p id="cadastre"><a href="manutencao.html">Cadastrar</a></p>
+			<p id="esqueceu"><a href="manutencao.html">Esqueceu o login</a></p>
+			
+		</div>		
+	</div>
+
+		
+
+	</nav>
+
+
+	<footer class="layout" id="rodape">
+
+	<div id="rodapeTudo">
+
+		<div id="redesSocias">
+			<a href="https://www.facebook.com/" class="redesSocias"><img id="icone_face" src="icones\face.png"></a>
+			<a href="https://www.instagram.com/?hl=pt-br" class="redesSocias"><img id="icone_intagram" src="icones\insta.png"></a>
+			<a href="https://br.linkedin.com/" class="redesSocias"><img id="icone_likedin" src="icones\link.png"></a>
+			<a href="https://twitter.com/login?lang=pt" class="redesSocias"><img id="icone_twitter" src="icones\twi.png"></a>
+		</div>
+
+		<div id="contatos">
+			<a class="cont" id="trabalhe" href="manutencao.html">Trabalhe <br> Conosco</a></div>
+		 	<a class="cont" id="contato"  href="manutencao.html">Contato</a></div>
+		 	<a class="cont" id="duvidas"  href="manutencao.html">Duvidas</a></div>
+		</div>
+
+		<div id="aplicativos">
+			<a href="https://play.google.com/store/apps?hl=pt_BR"><img class="apps" id="icon_googleplay" src="icones\google-play.png"></a>
+			<a href="https://www.apple.com/br/ios/app-store/"><img class="apps" id="icon_appstore" src="icones\app_store.png"></a>
+		</div>
+
+	</div>
+									
+	</footer>
+</body>
+</html>

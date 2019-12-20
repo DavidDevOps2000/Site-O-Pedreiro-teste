@@ -1,0 +1,13 @@
+$(document).ready(function(){
+	$("#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8").hover(function(){
+					$(this).clearQueue().animate({					
+									height:"30%"
+			,width:"16%"
+						},380);
+				}).mouseleave(function(){
+	$(this).animate({
+						width:"14%",
+						height:"23%"
+					},);
+				});
+});
